@@ -1,0 +1,7 @@
+Meg kell nyitni a fájlt Visual Studio Code-ban. 
+Ebben meg kell nyitni ezt a projektet, utána bele kell menni a mysql_script mappába, ott lesz egy create_database.js fájl, 
+ebből ki kell másolni az adatbázishoz ezt, ami legenerálja a schema-t és a táblát. 
+Ezután megnyitottam a mysql workbenchet, és beillesztettem ezt az sql utasítást. Lefutattattam és létrehozta a schemat és a táblát. 
+Létrejött egy blog schema, amibe van egy felhasználói tábla. Ezután vissza mentem a visual code-ba, ott megnyitottam a mysql.js-t, 
+és ott át kell írni a jelszót arra, amit a mysql workbench telepítésekor megadtam. 
+Ezután terminálba beírtam a parancsokat: npm install, utána npm start.
